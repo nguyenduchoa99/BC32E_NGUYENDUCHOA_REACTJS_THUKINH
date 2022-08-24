@@ -1,0 +1,72 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../../../public/glassesImage/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.header-main{
+    background-color: black ;
+    opacity: 0.6;
+    padding: 40px;
+    text-align: center;
+    h2{
+        color: white;
+    }
+}
+.content{
+    .row{
+        padding-top: 70px;
+        .col-6{
+            text-align: center;
+            .models{
+                width: 40%;
+                position: relative;
+            }
+            .glasses{
+                position: absolute;
+                width: 20%;
+                opacity: 0.85;
+                top: 26%;
+                left: 40%;
+            }
+           .info{
+            background-color: rgba(253,189,143,0.6);
+            text-align: left;
+            position: absolute;
+            width: 39%;
+              bottom: 0;
+              left: 30.5%;
+              h4{
+                padding-left: 10px;
+                color: blue;
+                font-weight: 600;
+              }
+              p{
+                color: #fff;
+                font-weight: 500;
+                padding-left: 10px;
+              }
+           }
+        }
+    }
+    .content-item{
+        background-color: #fff;
+        text-align: center;
+        margin-top: 50px;
+        padding: 30px;
+        border: 1px solid black;
+        img{
+            max-width: 200px;
+            margin: 6px;
+        }
+    }
+}

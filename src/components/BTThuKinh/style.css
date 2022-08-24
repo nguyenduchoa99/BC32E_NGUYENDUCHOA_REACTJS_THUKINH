@@ -1,0 +1,71 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../../../public/glassesImage/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header-main {
+  background-color: black;
+  opacity: 0.6;
+  padding: 40px;
+  text-align: center;
+}
+.header-main h2 {
+  color: white;
+}
+
+.content .row {
+  padding-top: 70px;
+}
+.content .row .col-6 {
+  text-align: center;
+}
+.content .row .col-6 .models {
+  width: 40%;
+  position: relative;
+}
+.content .row .col-6 .glasses {
+  position: absolute;
+  width: 20%;
+  opacity: 0.85;
+  top: 26%;
+  left: 40%;
+}
+.content .row .col-6 .info {
+  background-color: rgba(253, 189, 143, 0.6);
+  text-align: left;
+  position: absolute;
+  width: 39%;
+  bottom: 0;
+  left: 30.5%;
+}
+.content .row .col-6 .info h4 {
+  padding-left: 10px;
+  color: blue;
+  font-weight: 600;
+}
+.content .row .col-6 .info p {
+  color: #fff;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.content .content-item {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+  border: 1px solid black;
+}
+.content .content-item img {
+  max-width: 200px;
+  margin: 6px;
+}/*# sourceMappingURL=style.css.map */
